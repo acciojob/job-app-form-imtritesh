@@ -10,7 +10,7 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<form>
+	<form method="get">
 		<div>
 			<label for="name" >Name*</label> 
 			<input type="text" id="name" required>
@@ -32,13 +32,12 @@
 		</div>
 		<br>
 		<div>
-			<label for="name" >Laptop Brands :</label> 
-			<input type="checkbox" id="laptop">
-			<label for="name" >Apple</label>
-			<input type="checkbox" id="laptop">
-			<label for="name" >Asus</label>
-			<input type="checkbox" id="laptop">
-			<label for="name" >HP</label>
+			<label for="name" >Laptop Brands :</label>
+			<select id="laptop" name="laptops">
+				<option value="apple">Apple</option>
+				<option value="asus">Asus</option>
+				<option value="hp">HP</option>
+			</select>
 		</div>
 		<br>
 		<div>
